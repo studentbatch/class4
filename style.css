@@ -1,0 +1,25 @@
+/* 
+list-style-type: none; remove :point
+show outside space :margin
+show inside side space :padding
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    /* background-color: burlywood; */
+border: 1px solid black;
+}
+ul li{
+    float: left;
+    list-style-type: none;
+    line-height: 50px;
+    margin: 0 15px;
+}
